@@ -1,0 +1,19 @@
+{
+  "inputDevice": "BlackHole 2ch",
+  "outputDevice": "BlackHole 16ch",
+  "sampleRate": 44100,
+  "channels": 1,
+  "chunkSize": 1024,
+  "format": "int16",
+  "audioSettings": {
+    "playbackVolume": 1.0,
+    "recordingGain": 1.0,
+    "noiseReduction": false
+  },
+  "macOSSpecific": {
+    "useAggregateDevice": true,
+    "aggregateDeviceName": "TwitterSpacesAudio",
+    "monitoringEnabled": true
+  },
+  "outputDirectory": "./data/recordings"
+}

@@ -1,0 +1,24 @@
+{
+  "engine": "realtimestt",
+  "fallbackEngine": "whisper",
+  "vadSettings": {
+    "mode": "silero",
+    "sensitivity": 0.8,
+    "speechPadMs": 400,
+    "silencePadMs": 700
+  },
+  "realtimeSTTSettings": {
+    "model": "faster-whisper-medium",
+    "language": "en",
+    "vadMode": "silero",
+    "vadSensitivity": 0.8,
+    "initialPrompt": "",
+    "wordTimestamps": true
+  },
+  "whisperSettings": {
+    "model": "base",
+    "language": "en",
+    "initialPrompt": ""
+  },
+  "outputDirectory": "./data/transcripts"
+}

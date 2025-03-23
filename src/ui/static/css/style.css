@@ -1,0 +1,160 @@
+/* Main layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    background-color: #212529;
+    color: white;
+    min-height: 100vh;
+    padding: 0 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 0;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: #ffffff;
+    background-color: transparent;
+    transform: translateX(5px);
+}
+
+.main-content {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: 600;
+}
+
+/* Tabs */
+.tab-pane {
+    padding: 1rem 0;
+}
+
+.tab-pane:not(.active) {
+    display: none;
+}
+
+/* Status badge */
+#status-badge {
+    font-size: 0.8rem;
+}
+
+/* Conversation container */
+.conversation-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.message-agent {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+}
+
+.message-audience {
+    background-color: #f3f3f3;
+    border-left: 4px solid #9e9e9e;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.message-speaker {
+    font-weight: 600;
+}
+
+.message-time {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.message-text {
+    margin: 0;
+}
+
+/* Agent list */
+.agent-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.agent-checkbox {
+    margin-right: 1rem;
+}
+
+.agent-info {
+    flex-grow: 1;
+}
+
+.agent-name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.agent-role {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+/* Audio Player */
+audio {
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        padding: 1rem;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+} 

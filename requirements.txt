@@ -1,0 +1,35 @@
+# Core dependencies
+python>=3.8
+pyaudio>=0.2.11
+sounddevice>=0.4.4
+soundfile>=0.10.3
+numpy>=1.20.0
+requests>=2.25.1
+pydub>=0.25.1
+
+# Audio routing
+blackhole-audio>=0.0.1  # For audio routing
+
+# Text-to-Speech
+chattts>=0.1.0  # For ChatTTS engine
+TTS>=0.11.0  # Alternative TTS engine
+
+# Speech-to-Text
+whisper-jax>=0.1.0  # For fast Whisper transcription
+pywhispercpp>=0.0.1  # Whisper.cpp bindings for Python
+
+# LLM Integration
+huggingface_hub>=0.12.0  # For accessing Hugging Face models
+mistralai>=0.0.1  # For Mistral AI API
+openai>=0.27.0  # For OpenAI/OpenRouter
+
+# UI Dependencies
+flask>=2.0.1
+flask-socketio>=5.1.1
+python-dotenv>=0.19.0
+flask-cors>=3.0.10
+Werkzeug>=2.0.1
+
+# Utility
+tqdm>=4.62.3
+loguru>=0.5.3 

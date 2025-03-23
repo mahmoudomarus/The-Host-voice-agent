@@ -1,0 +1,54 @@
+{
+  "primaryEngine": "chattts",
+  "secondaryEngine": "xtts",
+  "voiceProfiles": {
+    "alex": {
+      "name": "Alex",
+      "preferredEngine": "chattts",
+      "gender": "male",
+      "pitch": 1.0,
+      "rate": 1.1,
+      "interjectionFrequency": 0.3,
+      "interjections": ["um", "hmm", "well"],
+      "pauseFrequency": 0.4,
+      "pauseDuration": {
+        "short": 200,
+        "medium": 500,
+        "long": 1000
+      }
+    },
+    "jordan": {
+      "name": "Jordan",
+      "preferredEngine": "chattts",
+      "gender": "male",
+      "pitch": 0.9,
+      "rate": 0.95,
+      "interjectionFrequency": 0.2,
+      "interjections": ["so", "right", "now"],
+      "pauseFrequency": 0.5,
+      "pauseDuration": {
+        "short": 300,
+        "medium": 600,
+        "long": 1200
+      }
+    },
+    "taylor": {
+      "name": "Taylor",
+      "preferredEngine": "chattts",
+      "gender": "female",
+      "pitch": 1.1,
+      "rate": 1.05,
+      "interjectionFrequency": 0.4,
+      "interjections": ["yeah", "ah", "like"],
+      "pauseFrequency": 0.3,
+      "pauseDuration": {
+        "short": 200,
+        "medium": 400,
+        "long": 800
+      }
+    }
+  },
+  "outputDirectory": "./data/audio",
+  "defaultFormat": "wav",
+  "defaultSampleRate": 44100
+}
