@@ -23,8 +23,8 @@ A multi-voice agent system for Twitter Spaces that enables AI agents to converse
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/twitter-spaces-agents.git
-   cd twitter-spaces-agents
+   git clone https://github.com/mahmoudomarus/The-Host-voice-agent.git
+   cd The-Host-voice-agent
    ```
 
 2. Create and activate a virtual environment:
@@ -149,4 +149,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
